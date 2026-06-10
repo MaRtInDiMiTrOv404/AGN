@@ -1,0 +1,6 @@
+# Ръководство за търсачки
+User-agent: *
+Allow: /
+
+# Заменете с реалния домейн, например https://example.com/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
