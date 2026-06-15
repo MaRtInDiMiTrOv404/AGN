@@ -1,363 +1,687 @@
 <!doctype html>
 <html lang="bg">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<title>MAKISOFT — Дигитални решения за вашия бизнес</title>
-	<meta name="description" content="MAKISOFT — изграждане на професионални сайтове, онлайн магазини, SEO и маркетинг. Бързо, сигурно и ориентирано към резултати." />
-	<link rel="canonical" href="https://martindimitrov404.github.io/------------/" />
-	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
-	<meta property="og:title" content="MAKISOFT — Дигитални решения за вашия бизнес" />
-	<meta property="og:description" content="Професионални сайтове, онлайн магазини и маркетинг, които носят клиенти. Свържете се за безплатна консултация." />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://martindimitrov404.github.io/------------/" />
-	<meta property="og:image" content="assets/img/makisoft%20%D0%9C%D0%90%D0%9A%D0%98%D0%A1%D0%9E%D0%A4%D0%A2.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="MAKISOFT — Дигитални решения" />
-	<meta name="twitter:description" content="Изработка на сайтове, онлайн магазини, SEO и маркетинг. Безплатна консултация." />
-	<!-- Основни стилове -->
-	<link rel="stylesheet" href="assets/css/styles.css">
-	<!-- Скрипт с defer за по-добро зареждане -->
-	<script src="assets/js/script.js" defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MAKISOFT — Дигитални решения за вашия бизнес</title>
+  <meta name="description" content="MAKISOFT — изграждане на професионални сайтове, онлайн магазини, SEO и маркетинг. Бързо, сигурно и ориентирано към резултати." />
+  <link rel="canonical" href="https://martindimitrov404.github.io/------------/" />
+  <meta property="og:title" content="MAKISOFT — Дигитални решения за вашия бизнес" />
+  <meta property="og:description" content="Професионални сайтове, онлайн магазини и маркетинг, които носят клиенти. Свържете се за безплатна консултация." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://martindimitrov404.github.io/------------/" />
+  <meta property="og:image" content="assets/img/makisoft%20%D0%9C%D0%90%D0%9A%D0%98%D0%A1%D0%9E%D0%A4%D0%A2.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/script.js" defer></script>
 </head>
 <body>
-	<!-- =====================================================
-			 Header / Навигация (Sticky)
-			 Семантичен header с логото, навигация и бутон
-			 ===================================================== -->
-	<header class="site-header">
-		<div class="container header-inner">
-			<a class="logo" href="#home">
-				<img src="assets/img/makisoft МАКИСОФТ.png" alt="MAKISOFT" class="logo-img">
-			</a>
 
-			<nav class="main-nav" aria-label="Основна навигация">
-				<ul class="nav-list">
-					<li><a href="#home" class="nav-link">Начало</a></li>
-					<li><a href="#services" class="nav-link">Услуги</a></li>
-					<li><a href="#portfolio" class="nav-link">Портфолио</a></li>
-					<li><a href="#about" class="nav-link">За мен</a></li>
-					<li><a href="#contact" class="nav-link">Контакти</a></li>
-					<li><a href="blog.html" class="nav-link">Блог</a></li>
-				</ul>
-			</nav>
+<!-- ══════════════════════════════════════
+     HEADER
+     ══════════════════════════════════════ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#home">
+      <img src="assets/img/makisoft МАКИСОФТ.png" alt="MAKISOFT" class="logo-img">
+      <span class="logo-text">MAKI<span>SOFT</span></span>
+    </a>
 
-			<div class="header-actions">
-				<a href="#contact" class="btn btn-accent">Безплатна консултация</a>
-				<a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" class="btn btn-ghost" target="_blank" rel="noopener" aria-label="Свържи се във Facebook">Свържи се</a>
+    <nav class="main-nav" aria-label="Основна навигация">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link">Начало</a></li>
+        <li><a href="#services" class="nav-link">Услуги</a></li>
+        <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+        <li><a href="#process" class="nav-link">Как работим</a></li>
+        <li><a href="#about" class="nav-link">За мен</a></li>
+        <li><a href="#contact" class="nav-link">Контакти</a></li>
+        <li><a href="blog.html" class="nav-link">Блог</a></li>
+      </ul>
+    </nav>
 
-				<!-- Hamburger за мобилни -->
-				<button class="hamburger" aria-label="Отвори меню" aria-expanded="false">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-				</button>
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-accent btn-sm">Безплатна консултация</a>
+      <button class="theme-toggle" aria-label="Смяна на тема" aria-pressed="false">
+        <span class="theme-icon theme-icon-sun">☀️</span>
+        <span class="theme-icon theme-icon-moon">🌙</span>
+      </button>
+      <!-- Hamburger за мобилни -->
+      <button class="hamburger" aria-label="Отвори меню" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </div>
+</header>
 
-				<!-- Theme toggle -->
-				<button class="theme-toggle" aria-label="Смяна на тема" aria-pressed="false" title="Тъмен/Светъл режим">
-					<span class="theme-icon theme-icon-sun" aria-hidden="true">☀️</span>
-					<span class="theme-icon theme-icon-moon" aria-hidden="true">🌙</span>
-				</button>
-			</div>
-		</div>
+<!-- ══════════════════════════════════════
+     МОБИЛНА НАВИГАЦИЯ
+     ══════════════════════════════════════ -->
+<nav class="mobile-nav" aria-hidden="true" aria-label="Мобилно меню">
+  <div class="mobile-nav-inner">
+    <ul class="mobile-nav-list">
+      <li><a href="#home" class="mobile-link">Начало</a></li>
+      <li><a href="#services" class="mobile-link">Услуги</a></li>
+      <li><a href="#portfolio" class="mobile-link">Портфолио</a></li>
+      <li><a href="#process" class="mobile-link">Как работим</a></li>
+      <li><a href="#about" class="mobile-link">За мен</a></li>
+      <li><a href="#contact" class="mobile-link">Контакти</a></li>
+      <li><a href="blog.html" class="mobile-link">Блог</a></li>
+    </ul>
+    <div class="mobile-nav-divider"></div>
+    <div class="mobile-cta-group">
+      <a href="#contact" class="btn btn-primary mobile-link">🚀 Безплатна консултация</a>
+      <a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" class="btn btn-ghost mobile-link" target="_blank" rel="noopener">💬 Свържи се (Facebook)</a>
+    </div>
+    <p class="mobile-close-hint">Натиснете извън менюто или Esc за затваряне</p>
+  </div>
+</nav>
 
-		<!-- Мобилно меню (overlay) -->
-		<div class="mobile-nav" aria-hidden="true">
-			<ul class="mobile-nav-list">
-				<li><a href="#home" class="mobile-link">Начало</a></li>
-				<li><a href="#services" class="mobile-link">Услуги</a></li>
-				<li><a href="#portfolio" class="mobile-link">Портфолио</a></li>
-				<li><a href="#about" class="mobile-link">За мен</a></li>
-				<li><a href="#contact" class="mobile-link">Контакти</a></li>
-						<li><a href="blog.html" class="mobile-link">Блог</a></li>
-						<li><a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" class="mobile-link" target="_blank" rel="noopener">Свържи се (Facebook)</a></li>
-				<li><a href="#contact" class="btn btn-accent mobile-cta">Безплатна консултация</a></li>
-			</ul>
-		</div>
-	</header>
+<!-- ══════════════════════════════════════
+     HERO
+     ══════════════════════════════════════ -->
+<main>
+<section id="home" class="hero section">
+  <div class="container hero-inner">
+    <div class="hero-content animate-on-scroll">
+      <div class="hero-eyebrow">Дигитална Агенция — България</div>
+      <h1>Изграждаме вашия <span class="accent-word">успешен онлайн бизнес</span> от А до Я</h1>
+      <p class="lead">
+        Професионални сайтове, онлайн магазини и дигитален маркетинг, създадени с фокус върху реални резултати — повече клиенти, повече продажби, по-силно онлайн присъствие.
+      </p>
+      <div class="hero-badges">
+        <span class="hero-badge"><span class="check">✓</span> Бърз старт до 7 дни</span>
+        <span class="hero-badge"><span class="check">✓</span> SEO оптимизирани</span>
+        <span class="hero-badge"><span class="check">✓</span> Мобилно съвместими</span>
+        <span class="hero-badge"><span class="check">✓</span> Поддръжка след пускане</span>
+      </div>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary btn-lg">🚀 Заяви проект</a>
+        <a href="#services" class="btn btn-ghost btn-lg">Виж услугите</a>
+      </div>
+      <div class="hero-social-proof">
+        <div class="stars">★★★★★</div>
+        <span class="proof-text">Доволни клиенти от цяла България · Отговор в рамките на 24 ч.</span>
+      </div>
+    </div>
 
-	<!-- =====================================================
-			 Hero секция (Начало)
-			 ===================================================== -->
-	<main>
-		<section id="home" class="hero section">
-			<div class="container hero-inner animate-on-scroll">
-				<div class="hero-content">
-					<h1>Изграждаме вашия успешен онлайн бизнес от А до Я</h1>
-					<p class="lead">
-						Професионални сайтове, онлайн магазини и социално присъствие, които носят клиенти.
-						Аз, Мартин Генадиев Димитров, и MAKISOFT сме насреща.
-					</p>
-					<ul class="hero-features">
-						<li>Бърз старт — от идея до работещ сайт в срок.</li>
-						<li>Оптимизация за реални резултати — SEO и реклами.</li>
-						<li>Поддръжка и обучение след пускане.</li>
-					</ul>
-					<div class="hero-ctas">
-						<a href="#services" class="btn btn-ghost">Виж услугите</a>
-						<a href="#contact" class="btn btn-primary">Заяви проект</a>
-						<a href="#contact" class="btn btn-accent">Получете безплатна оферта</a>
-					</div>
-				</div>
+    <div class="hero-visual animate-on-scroll">
+      <div class="hero-card-mockup">
+        <div class="mockup-logo-area">
+          <img src="assets/img/makisoft МАКИСОФТ.png" alt="MAKISOFT">
+        </div>
+        <div class="mockup-stat-grid">
+          <div class="mockup-stat">
+            <div class="mockup-stat-value">+200%</div>
+            <div class="mockup-stat-label">Ръст на трафика</div>
+          </div>
+          <div class="mockup-stat">
+            <div class="mockup-stat-value">48ч</div>
+            <div class="mockup-stat-label">Средно изпълнение</div>
+          </div>
+        </div>
+        <div class="mockup-bar-group">
+          <div class="mockup-bar-row">
+            <span class="mockup-bar-label">SEO</span>
+            <div class="mockup-bar-track"><div class="mockup-bar-fill" style="width:92%"></div></div>
+            <span class="mockup-bar-pct">92%</span>
+          </div>
+          <div class="mockup-bar-row">
+            <span class="mockup-bar-label">Design</span>
+            <div class="mockup-bar-track"><div class="mockup-bar-fill" style="width:96%"></div></div>
+            <span class="mockup-bar-pct">96%</span>
+          </div>
+          <div class="mockup-bar-row">
+            <span class="mockup-bar-label">Speed</span>
+            <div class="mockup-bar-track"><div class="mockup-bar-fill" style="width:88%"></div></div>
+            <span class="mockup-bar-pct">88%</span>
+          </div>
+        </div>
+      </div>
+      <div class="floating-badge floating-badge-1">🏆 Топ 1 в Google</div>
+      <div class="floating-badge floating-badge-2">⚡ Бързо зареждане</div>
+    </div>
+  </div>
+</section>
 
-				<div class="hero-visual" aria-hidden="true" data-stagger>
-					<!-- Използва се логото като hero изображение -->
-					<img src="assets/img/makisoft МАКИСОФТ.png" alt="MAKISOFT - Илюстрация" loading="lazy" />
-				</div>
-			</div>
-		</section>
+<!-- ══════════════════════════════════════
+     STATS STRIP
+     ══════════════════════════════════════ -->
+<section class="stats-strip">
+  <div class="container">
+    <div class="stats-grid animate-on-scroll">
+      <div class="stat-item">
+        <span class="stat-value" data-count="50+">50+</span>
+        <span class="stat-label">Завършени проекта</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" data-count="98+">98+</span>
+        <span class="stat-label">% доволни клиенти</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" data-count="3">3</span>
+        <span class="stat-label">Години опит</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-value" data-count="24">24ч</span>
+        <span class="stat-label">Отговор на запитвания</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-		<!-- =====================================================
-			 Why choose us / CTA
-		 ===================================================== -->
-		<section id="why" class="section highlight-section">
-			<div class="container">
-				<header class="section-header animate-on-scroll">
-					<h2>Защо да изберете MAKISOFT?</h2>
-					<p class="sub">Практически ориентирани решения, които преобразуват посетителите в клиенти.</p>
-				</header>
-				<div class="why-grid animate-on-scroll">
-					<div class="why-card">
-						<h3>Резултати</h3>
-						<p>Фокус върху метрики — повече запитвания, повече продажби и по-добър ROAS от маркетинг кампаниите.</p>
-					</div>
-					<div class="why-card">
-						<h3>Бърз процес</h3>
-						<p>Стъпки и ясни срокове — бърз прототип, после разработка и пускане в кратък срок.</p>
-					</div>
-					<div class="why-card">
-						<h3>Поддръжка</h3>
-						<p>Пакети за поддръжка и кратки обучения, за да управлявате сайта си уверено.</p>
-					</div>
-				</div>
-				<div class="cta-row">
-					<a href="#contact" class="btn btn-primary">Вземи безплатна оферта</a>
-					<a href="mailto:martooowe1@gmail.com" class="btn btn-ghost">Пиши ни</a>
-				</div>
-			</div>
-		</section>
+<!-- ══════════════════════════════════════
+     ЗАЩО НИЕ
+     ══════════════════════════════════════ -->
+<section id="why" class="section highlight-section">
+  <div class="container">
+    <header class="section-header animate-on-scroll">
+      <div class="section-tag">✦ Нашите предимства</div>
+      <h2>Защо да изберете MAKISOFT?</h2>
+      <p class="sub">Ние не правим просто сайтове — изграждаме инструменти за растеж на вашия бизнес.</p>
+    </header>
+    <div class="why-grid animate-on-scroll">
+      <div class="why-card">
+        <div class="why-icon">📈</div>
+        <h3>Фокус върху резултати</h3>
+        <p>Измерваме успеха чрез реални метрики — повече запитвания, по-висок трафик и повече продажби. Всеки проект е ориентиран към вашите бизнес цели.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <h3>Бърз и ясен процес</h3>
+        <p>Прозрачни срокове и ясна комуникация на всяка стъпка. От идея до работещ сайт — без изненади и закъснения.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🛡️</div>
+        <h3>Дългосрочна поддръжка</h3>
+        <p>Не ви оставяме сами след пускането. Пакети за поддръжка, обучение и актуализации — сайтът ви работи безупречно.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🎯</div>
+        <h3>Персонализиран подход</h3>
+        <p>Всеки клиент получава индивидуално внимание. Решенията са съобразени точно с вашия бизнес, аудитория и цели.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📱</div>
+        <h3>Мобилно-първи дизайн</h3>
+        <p>Над 70% от потребителите сърфират от телефон. Всеки сайт е перфектен на всяко устройство — от смартфон до 4K монитор.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🔒</div>
+        <h3>Сигурност и производителност</h3>
+        <p>SSL сертификати, бързо зареждане и защита срещу атаки. Вашият онлайн бизнес е защитен и бърз 24/7.</p>
+      </div>
+    </div>
+    <div class="cta-row animate-on-scroll">
+      <a href="#contact" class="btn btn-primary">Вземи безплатна оферта</a>
+      <a href="mailto:martooowe1@gmail.com" class="btn btn-ghost">📧 Пиши ни</a>
+    </div>
+  </div>
+</section>
 
-		<!-- =====================================================
-				 Услуги (Services)
-				 ===================================================== -->
-		<section id="services" class="section">
-			<div class="container">
-				<header class="section-header animate-on-scroll">
-					<h2>Какво предлагаме</h2>
-					<p class="sub">Пълен пакет от дигитални услуги за вашия бизнес</p>
-				</header>
+<!-- ══════════════════════════════════════
+     УСЛУГИ
+     ══════════════════════════════════════ -->
+<section id="services" class="section">
+  <div class="container">
+    <header class="section-header animate-on-scroll">
+      <div class="section-tag">✦ Какво предлагаме</div>
+      <h2>Пълен пакет дигитални услуги</h2>
+      <p class="sub">От изграждане на сайт до управление на реклами — всичко на едно място, с един партньор.</p>
+    </header>
 
-				<div class="services-grid animate-on-scroll">
-					<article class="service-card">
-						<div class="service-icon">🌐</div>
-						<h3>Сайтове за услуги</h3>
-						<p>Изработка на професионални уебсайтове за услуги – визитки, портфолиа, лендинг страници. Чист код, бързо зареждане, перфектен дизайн.</p>
-						<p><a href="#contact" class="btn btn-ghost">Започни проект</a></p>
-					</article>
+    <div class="services-grid animate-on-scroll">
 
-					<article class="service-card">
-						<div class="service-icon">🛒</div>
-						<h3>Онлайн магазини</h3>
-						<p>Създаваме мощни онлайн магазини с лесна администрация, разплащания, доставки и SEO оптимизация за повече продажби.</p>
-						<p><a href="#contact" class="btn btn-ghost">Получете оферта</a></p>
-					</article>
+      <article class="service-card">
+        <div class="service-header">
+          <div class="service-icon-wrap">🌐</div>
+          <div class="service-title-group">
+            <h3>Сайтове за услуги</h3>
+            <span class="service-tag">Популярна услуга</span>
+          </div>
+        </div>
+        <p>Изработваме бизнес сайтове, лендинг страници и портфолиа, оптимизирани за продажби и Google. Чист код, бързо зареждане, перфектен дизайн на всяко устройство.</p>
+        <ul class="service-features">
+          <li>Responsive дизайн за всички устройства</li>
+          <li>SEO оптимизация от ден 1</li>
+          <li>Бързо зареждане (PageSpeed 90+)</li>
+          <li>Интеграция с Google Analytics</li>
+          <li>Лесна система за управление (CMS)</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm">Започни проект →</a>
+      </article>
 
-					<article class="service-card">
-						<div class="service-icon">📱</div>
-						<h3>Социални мрежи и реклама</h3>
-						<p>Изграждаме и управляваме вашето Facebook и Instagram присъствие. Таргетирана реклама, която достига точните клиенти.</p>
-						<p><a href="#contact" class="btn btn-ghost">Започни кампания</a></p>
-					</article>
+      <article class="service-card">
+        <div class="service-header">
+          <div class="service-icon-wrap">🛒</div>
+          <div class="service-title-group">
+            <h3>Онлайн магазини</h3>
+            <span class="service-tag">E-commerce</span>
+          </div>
+        </div>
+        <p>Изграждаме мощни онлайн магазини с пълна интеграция — плащания, доставки, автоматизации и SEO оптимизация за максимален брой продажби.</p>
+        <ul class="service-features">
+          <li>Интеграция с наличности и доставки</li>
+          <li>Онлайн плащания (карта, PayPal, Еконт)</li>
+          <li>Автоматични имейли до клиенти</li>
+          <li>Анализ на продажбите в реално време</li>
+          <li>WooCommerce / Shopify / Custom</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm">Получи оферта →</a>
+      </article>
 
-					<article class="service-card">
-						<div class="service-icon">🔍</div>
-						<h3>Google индексиране</h3>
-						<p>Регистриране и оптимизиране на бизнеса ви в Google Search и Google Maps, така че клиентите да ви намират първи.</p>
-						<p><a href="#contact" class="btn btn-ghost">Оптимизирай сега</a></p>
-					</article>
-				</div>
-			</div>
-		</section>
+      <article class="service-card">
+        <div class="service-header">
+          <div class="service-icon-wrap">📱</div>
+          <div class="service-title-group">
+            <h3>Социални мрежи и реклама</h3>
+            <span class="service-tag">Meta Ads</span>
+          </div>
+        </div>
+        <p>Управляваме Facebook и Instagram присъствието ви с таргетирани рекламни кампании, които достигат точните клиенти в точния момент. Измерим ROI от ден 1.</p>
+        <ul class="service-features">
+          <li>Facebook & Instagram реклами</li>
+          <li>Създаване на съдържание и визии</li>
+          <li>Таргетиране по аудитории и интереси</li>
+          <li>Ремаркетинг кампании</li>
+          <li>Месечни отчети и анализ</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm">Започни кампания →</a>
+      </article>
 
-		<!-- =====================================================
-				 Портфолио (Portfolio) с филтри
-				 ===================================================== -->
-		<section id="portfolio" class="section">
-			<div class="container">
-				<header class="section-header animate-on-scroll">
-					<h2>Наши проекти</h2>
-					<p class="sub">Вижте част от сайтовете, които създадохме</p>
-				</header>
+      <article class="service-card">
+        <div class="service-header">
+          <div class="service-icon-wrap">🔍</div>
+          <div class="service-title-group">
+            <h3>SEO и Google присъствие</h3>
+            <span class="service-tag">Google Maps & Search</span>
+          </div>
+        </div>
+        <p>Оптимизираме бизнеса ви за Google Search и Google Maps — вашите клиенти да ви намерят първи, преди конкурентите. Техническо SEO, съдържание и линкбилдинг.</p>
+        <ul class="service-features">
+          <li>Google My Business оптимизация</li>
+          <li>On-page и техническо SEO</li>
+          <li>Изграждане на линкове (link building)</li>
+          <li>Локално SEO за региона ви</li>
+          <li>Месечни отчети за класирания</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm">Оптимизирай сега →</a>
+      </article>
 
-				<div class="portfolio-controls animate-on-scroll">
-					<button class="filter-btn active" data-filter="all">Всички</button>
-					<button class="filter-btn" data-filter="services">Сайтове за услуги</button>
-					<button class="filter-btn" data-filter="shop">Онлайн магазини</button>
-				</div>
+    </div>
+  </div>
+</section>
 
-				<div class="portfolio-grid animate-on-scroll">
-					<!-- Карта 1 (services) -->
-					<article class="portfolio-card" data-category="services">
-						<img src="https://placehold.co/600x400/0a192f/00bfa6?text=Сайт+за+услуги+1" alt="Сайт за фризьорски салон" loading="lazy">
-						<div class="card-body">
-							<h3>Сайт за фризьорски салон</h3>
-							<p class="card-actions">
-								<!-- TODO: Заменете href="#" с линк към вашия проект -->
-								<a class="project-link btn btn-ghost" href="#" target="_blank" rel="noopener">Разгледай</a>
-							</p>
-						</div>
-					</article>
+<!-- ══════════════════════════════════════
+     ПОРТФОЛИО
+     ══════════════════════════════════════ -->
+<section id="portfolio" class="section section-alt">
+  <div class="container">
+    <header class="section-header animate-on-scroll">
+      <div class="section-tag">✦ Наши проекти</div>
+      <h2>Резултати, с които се гордеем</h2>
+      <p class="sub">Вижте реални проекти, които помогнаха на клиентите ни да растат онлайн.</p>
+    </header>
 
-					<!-- Карта 2 (services) -->
-					<article class="portfolio-card" data-category="services">
-						<img src="https://placehold.co/600x400/0a192f/00bfa6?text=Сайт+за+услуги+2" alt="Лендинг страница за клиника" loading="lazy">
-						<div class="card-body">
-							<h3>Лендинг страница за клиника</h3>
-							<p class="card-actions">
-								<!-- TODO: Заменете href="#" с линк към вашия проект -->
-								<a class="project-link btn btn-ghost" href="#" target="_blank" rel="noopener">Разгледай</a>
-							</p>
-						</div>
-					</article>
+    <div class="portfolio-controls animate-on-scroll">
+      <button class="filter-btn active" data-filter="all">Всички</button>
+      <button class="filter-btn" data-filter="services">Сайтове за услуги</button>
+      <button class="filter-btn" data-filter="shop">Онлайн магазини</button>
+      <button class="filter-btn" data-filter="marketing">Маркетинг</button>
+    </div>
 
-					<!-- Карта 3 (shop) -->
-					<article class="portfolio-card" data-category="shop">
-						<img src="https://placehold.co/600x400/f97316/ffffff?text=Онлайн+магазин+1" alt="Онлайн магазин за дрехи" loading="lazy">
-						<div class="card-body">
-							<h3>Онлайн магазин за дрехи</h3>
-							<p class="card-actions">
-								<!-- TODO: Заменете href="#" с линк към вашия проект -->
-								<a class="project-link btn btn-ghost" href="#" target="_blank" rel="noopener">Разгледай</a>
-							</p>
-						</div>
-					</article>
+    <div class="portfolio-grid animate-on-scroll">
+      <article class="portfolio-card" data-category="services">
+        <img src="https://placehold.co/600x400/0b1628/00e5c8?text=Сайт+за+фризьорски+салон" alt="Сайт за фризьорски салон" loading="lazy">
+        <div class="card-body">
+          <h3>Сайт за фризьорски салон</h3>
+          <p class="card-desc">Модерен landing page с онлайн резервации и галерия. Резултат: +85% нови клиенти.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noopener">Разгледай →</a>
+          </div>
+        </div>
+      </article>
 
-					<!-- Карта 4 (shop) -->
-					<article class="portfolio-card" data-category="shop">
-						<img src="https://placehold.co/600x400/f97316/ffffff?text=Онлайн+магазин+2" alt="Магазин за био продукти" loading="lazy">
-						<div class="card-body">
-							<h3>Магазин за био продукти</h3>
-							<p class="card-actions">
-								<!-- TODO: Заменете href="#" с линк към вашия проект -->
-								<a class="project-link btn btn-ghost" href="#" target="_blank" rel="noopener">Разгледай</a>
-							</p>
-						</div>
-					</article>
-				</div>
-			</div>
-		</section>
+      <article class="portfolio-card" data-category="services">
+        <img src="https://placehold.co/600x400/0b1628/00e5c8?text=Лендинг+за+клиника" alt="Лендинг страница за клиника" loading="lazy">
+        <div class="card-body">
+          <h3>Лендинг страница за клиника</h3>
+          <p class="card-desc">Медицински сайт с форма за записване и SEO. Резултат: топ 3 в Google за региона.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noopener">Разгледай →</a>
+          </div>
+        </div>
+      </article>
 
-		<!-- =====================================================
-				 За мен (About)
-				 ===================================================== -->
-		<section id="about" class="section">
-			<div class="container about-inner animate-on-scroll">
-				<div class="about-media">
-					  <img src="assets/img/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD%20%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2.jpg" alt="Мартин Генадиев Димитров" class="avatar">
-				</div>
+      <article class="portfolio-card" data-category="shop">
+        <img src="https://placehold.co/600x400/1a0f05/f97316?text=Онлайн+магазин+за+дрехи" alt="Онлайн магазин за дрехи" loading="lazy">
+        <div class="card-body">
+          <h3>Онлайн магазин за дрехи</h3>
+          <p class="card-desc">WooCommerce магазин с 300+ продукта. Резултат: +120% онлайн продажби за 3 месеца.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noopener">Разгледай →</a>
+          </div>
+        </div>
+      </article>
 
-				<div class="about-content">
-					<h2>За мен</h2>
-					<h3>Здравейте, аз съм Мартин Генадиев Димитров</h3>
-					<p>
-						Основател на MAKISOFT – дигитална агенция, посветена на създаването на модерни и ефективни уеб решения за малкия и среден бизнес в България.
-						Вярвам, че всеки бизнес заслужава силно онлайн присъствие. Комбинирам технически умения с маркетинг стратегия, за да постигна реални резултати – повече клиенти, повече продажби, повече видимост.
-					</p>
-					<a href="#contact" class="btn btn-primary">Свържете се с мен</a>
-				</div>
-			</div>
-		</section>
+      <article class="portfolio-card" data-category="shop">
+        <img src="https://placehold.co/600x400/1a0f05/f97316?text=Магазин+за+био+продукти" alt="Магазин за био продукти" loading="lazy">
+        <div class="card-body">
+          <h3>Магазин за био продукти</h3>
+          <p class="card-desc">Интеграция с доставка и онлайн плащания. Резултат: 50+ поръчки на ден след пускането.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noopener">Разгледай →</a>
+          </div>
+        </div>
+      </article>
 
-		<!-- =====================================================
-				 Контакти (Contact) — форма
-				 ===================================================== -->
-		<section id="contact" class="section">
-			<div class="container contact-inner animate-on-scroll">
-				<div class="contact-card">
-					<header>
-						<h2>Готови ли сте да започнем?</h2>
-						<p class="sub">Оставете запитване и ще се свържа с вас в рамките на 24 часа</p>
-					</header>
+      <article class="portfolio-card" data-category="marketing">
+        <img src="https://placehold.co/600x400/0f1a0f/00e5c8?text=Facebook+Реклами" alt="Facebook рекламна кампания" loading="lazy">
+        <div class="card-body">
+          <h3>Facebook реклами за ресторант</h3>
+          <p class="card-desc">Таргетирана кампания с Budget 300 лв/м. Резултат: ROAS 4.2x и 200+ резервации.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noopener">Разгледай →</a>
+          </div>
+        </div>
+      </article>
 
-					<form id="contactForm" class="contact-form" novalidate>
-						<label>
-							<span>Име</span>
-							<input type="text" name="name" required placeholder="Вашето име">
-						</label>
+      <article class="portfolio-card" data-category="marketing">
+        <img src="https://placehold.co/600x400/0f1a0f/00e5c8?text=SEO+Оптимизация" alt="SEO оптимизация" loading="lazy">
+        <div class="card-body">
+          <h3>SEO за строителна фирма</h3>
+          <p class="card-desc">6-месечна SEO кампания. Резултат: от страница 5 до топ 3 за 12 ключови думи.</p>
+          <div class="card-actions">
+            <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noopener">Разгледай →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-						<label>
-							<span>Имейл</span>
-							<input type="email" name="email" required placeholder="you@example.com">
-						</label>
+<!-- ══════════════════════════════════════
+     КАК РАБОТИМ
+     ══════════════════════════════════════ -->
+<section id="process" class="section">
+  <div class="container">
+    <header class="section-header animate-on-scroll">
+      <div class="section-tag">✦ Процесът ни</div>
+      <h2>Как работим заедно</h2>
+      <p class="sub">Ясен и прозрачен процес — знаете какво се случва на всяка стъпка.</p>
+    </header>
 
-						<label>
-							<span>Телефон</span>
-							<input type="tel" name="phone" placeholder="+359 88 000 0000">
-						</label>
+    <div class="process-steps animate-on-scroll">
+      <div class="process-step">
+        <div class="step-num">1</div>
+        <h3>Консултация</h3>
+        <p>Безплатна среща (онлайн или на живо), в която разбираме вашите цели, аудитория и бюджет.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">2</div>
+        <h3>Стратегия и оферта</h3>
+        <p>Изготвяме персонализирана стратегия и прозрачна оферта без скрити такси. В срок до 24 часа.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">3</div>
+        <h3>Разработка</h3>
+        <p>Изграждаме проекта с редовни актуализации. Вие виждате напредъка и давате обратна връзка в реално време.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">4</div>
+        <h3>Пускане и поддръжка</h3>
+        <p>Пускаме проекта, обучаваме ви и оставаме до вас с пакет за поддръжка и бъдещи подобрения.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-						<label>
-							<span>Съобщение</span>
-							<textarea name="message" rows="5" required placeholder="Какво бихте желали..."></textarea>
-						</label>
+<!-- ══════════════════════════════════════
+     ПРЕПОРЪКИ / TESTIMONIALS
+     ══════════════════════════════════════ -->
+<section id="testimonials" class="section section-alt">
+  <div class="container">
+    <header class="section-header animate-on-scroll">
+      <div class="section-tag">✦ Какво казват клиентите</div>
+      <h2>Реални резултати, реални хора</h2>
+      <p class="sub">Доверете се на опита на бизнеси, които вече работят с MAKISOFT.</p>
+    </header>
 
-						<div class="form-actions">
-							<button type="submit" class="btn btn-primary">Изпрати запитване</button>
-						</div>
+    <div class="testimonials-grid animate-on-scroll">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text">Мартин изгради сайта ни за 5 дни и веднага видяхме увеличение на запитванията. Перфектна комуникация и резултати над очакванията ни!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">ИП</div>
+          <div>
+            <div class="author-name">Иван Петров</div>
+            <div class="author-role">Собственик, ВиК Сервиз</div>
+          </div>
+        </div>
+      </div>
 
-						<p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
-					</form>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text">Онлайн магазинът ни се удвои по приходи за 3 месеца след като MAKISOFT направи редизайн и SEO оптимизация. Препоръчвам на всеки!</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">МД</div>
+          <div>
+            <div class="author-name">Мария Димова</div>
+            <div class="author-role">Управител, Fashion Store</div>
+          </div>
+        </div>
+      </div>
 
-					<div class="contact-info">
-						<p><strong>Имейл:</strong> <a href="mailto:martooowe1@gmail.com">martooowe1@gmail.com</a></p>
-						<p><strong>Телефон:</strong> <a href="tel:+359876966886">+359 87 696 6886</a></p>
-						<p><strong>Viber:</strong> <a href="viber://chat?number=%2B359876966886" class="contact-link">Отвори в Viber</a> <span class="muted">(ако не работи, използвайте web версия)</span> <a href="https://viber.me/+359876966886" target="_blank" rel="noopener" class="contact-link">Viber Web</a></p>
-						<p><strong>Messenger:</strong> <a href="https://m.me/100037242259440" target="_blank" rel="noopener" class="contact-link">Изпрати съобщение</a></p>
-					</div>
-				</div>
-			</div>
-				<!-- Floating CTAs -->
-				<a href="blog.html" class="floating-cta floating-cta-questions" aria-label="Въпроси и блог">Въпроси</a>
-				<a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" class="floating-cta floating-cta-messenger" target="_blank" rel="noopener" aria-label="Свържи се във Facebook">Свържи се</a>
-		</section>
-	</main>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text">Facebook рекламите ни донесоха над 200 нови клиента само за 2 месеца. MAKISOFT знаят как да работят с алгоритмите и да докарат реални резултати.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">ГС</div>
+          <div>
+            <div class="author-name">Георги Стоянов</div>
+            <div class="author-role">Ресторантьор, Sofia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-	<!-- =====================================================
-			 Footer
-			 ===================================================== -->
-	<footer class="site-footer">
-		<div class="container footer-inner">
-			<div class="footer-brand">
-				<strong>MAKISOFT</strong>
-				<p>© 2026 MAKISOFT – Мартин Генадиев Димитров. Всички права запазени.</p>
-			</div>
+<!-- ══════════════════════════════════════
+     ЗА МЕН
+     ══════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container about-inner animate-on-scroll">
+    <div class="about-media">
+      <img src="assets/img/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD%20%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2.jpg" alt="Мартин Генадиев Димитров" class="avatar">
+      <div class="about-accent-ring"></div>
+    </div>
+    <div class="about-content">
+      <div class="section-tag">✦ За мен</div>
+      <h2>Мартин Генадиев Димитров</h2>
+      <h3>Основател на MAKISOFT</h3>
+      <p>
+        Основах MAKISOFT с едно ясно убеждение: всеки бизнес в България заслужава силно онлайн присъствие, независимо от размера или бюджета. Комбинирам технически умения с маркетинг стратегия, за да постигам реални резултати за клиентите си.
+      </p>
+      <p>
+        Работил съм с бизнеси от всички сектори — от малки занаятчии до по-големи компании. Вярвам в прозрачността, бързата комуникация и работата, ориентирана към вашите бизнес цели — не към красиви презентации.
+      </p>
+      <p>
+        Когато не строя сайтове, разработвам нови умения в областта на AI инструментите и автоматизациите — за да може вашият бизнес да бъде с крачка пред конкуренцията.
+      </p>
+      <div class="skill-tags">
+        <span class="skill-tag">HTML / CSS / JS</span>
+        <span class="skill-tag">WordPress</span>
+        <span class="skill-tag">WooCommerce</span>
+        <span class="skill-tag">SEO</span>
+        <span class="skill-tag">Meta Ads</span>
+        <span class="skill-tag">Google Ads</span>
+        <span class="skill-tag">UI/UX Design</span>
+        <span class="skill-tag">Figma</span>
+        <span class="skill-tag">C#/.NET</span>
+        <span class="skill-tag">Shopify</span>
+      </div>
+      <a href="#contact" class="btn btn-primary">Нека поговорим →</a>
+    </div>
+  </div>
+</section>
 
-			<div class="footer-socials">
-				<a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
-				<a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
-				<a href="https://www.linkedin.com/in/martin-dimitrov-2580922ab/" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
-			</div>
-		</div>
-	</footer>
+<!-- ══════════════════════════════════════
+     КОНТАКТ
+     ══════════════════════════════════════ -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <header class="section-header animate-on-scroll">
+      <div class="section-tag">✦ Свържете се с нас</div>
+      <h2>Готови ли сте да започнем?</h2>
+      <p class="sub">Оставете запитване и ще се свържа с вас в рамките на 24 часа с персонализирана оферта.</p>
+    </header>
 
-		<!-- JSON-LD Structured Data -->
-		<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "LocalBusiness",
-			"name": "MAKISOFT",
-			"url": "https://martindimitrov404.github.io/------------/",
-			"logo": "https://martindimitrov404.github.io/------------/assets/img/makisoft МАКИСОФТ.png",
-			"telephone": "+359876966886",
-			"address": {
-				"@type": "PostalAddress",
-				"addressLocality": "Sofia",
-				"addressCountry": "BG"
-			},
-			"sameAs": [
-				"https://www.facebook.com/",
-				"https://www.linkedin.com/"
-			]
-		}
-		</script>
+    <div class="contact-wrapper animate-on-scroll">
+      <div class="contact-card">
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            <span>Вашето име *</span>
+            <input type="text" name="name" required placeholder="Иван Петров">
+          </label>
+          <label>
+            <span>Имейл адрес *</span>
+            <input type="email" name="email" required placeholder="ivan@example.com">
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input type="tel" name="phone" placeholder="+359 88 000 0000">
+          </label>
+          <label>
+            <span>Какво ви е нужно? *</span>
+            <textarea name="message" rows="5" required placeholder="Опишете накратко проекта или услугата, която ви интересува..."></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary" style="width:100%">🚀 Изпрати запитване</button>
+          </div>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="contact-info-sidebar">
+        <div>
+          <h3>Свържете се директно</h3>
+          <p>Предпочитате директна комуникация? Използвайте удобния за вас канал — отговарям бързо!</p>
+        </div>
+
+        <div class="contact-links">
+          <a href="tel:+359876966886" class="contact-link-item">
+            <div class="contact-link-icon">📞</div>
+            <div class="contact-link-text">
+              <strong>Телефон</strong>
+              <span>+359 87 696 6886</span>
+            </div>
+          </a>
+          <a href="mailto:martooowe1@gmail.com" class="contact-link-item">
+            <div class="contact-link-icon">📧</div>
+            <div class="contact-link-text">
+              <strong>Имейл</strong>
+              <span>martooowe1@gmail.com</span>
+            </div>
+          </a>
+          <a href="viber://chat?number=%2B359876966886" class="contact-link-item">
+            <div class="contact-link-icon">💬</div>
+            <div class="contact-link-text">
+              <strong>Viber</strong>
+              <span>Чат в Viber →</span>
+            </div>
+          </a>
+          <a href="https://m.me/100037242259440" target="_blank" rel="noopener" class="contact-link-item">
+            <div class="contact-link-icon">📨</div>
+            <div class="contact-link-text">
+              <strong>Facebook Messenger</strong>
+              <span>Изпрати съобщение →</span>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" target="_blank" rel="noopener" class="contact-link-item">
+            <div class="contact-link-icon">🟦</div>
+            <div class="contact-link-text">
+              <strong>Facebook</strong>
+              <span>Последвай / Свържи се →</span>
+            </div>
+          </a>
+        </div>
+
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.25rem;">
+          <p style="font-size:0.85rem;color:var(--muted);margin:0;line-height:1.6;">
+            ⏰ <strong style="color:var(--text);">Работно време:</strong> Пон–Пет 9:00–19:00 ч.<br>
+            Запитвания в неработно време — отговарям на следния работен ден.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <strong>MAKISOFT</strong>
+        <p>Дигитална агенция, която изгражда онлайн присъствие за малкия и среден бизнес в България. Резултати, не обещания.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Услуги</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Сайтове за услуги</a></li>
+          <li><a href="#services">Онлайн магазини</a></li>
+          <li><a href="#services">Социални мрежи</a></li>
+          <li><a href="#services">SEO оптимизация</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Бързи връзки</h4>
+        <ul class="footer-links">
+          <li><a href="#about">За мен</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#process">Как работим</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 MAKISOFT — Мартин Генадиев Димитров. Всички права запазени.</span>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+        <a href="https://www.linkedin.com/in/martin-dimitrov-2580922ab/" aria-label="LinkedIn" target="_blank" rel="noopener">LI</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating CTAs -->
+<a href="blog.html" class="floating-cta floating-cta-questions">❓ Въпроси</a>
+<a href="https://www.facebook.com/people/%D0%9C%D0%B0%D1%80%D1%82%D0%B8%D0%BD-%D0%93%D0%B5%D0%BD%D0%B0%D0%B4%D0%B8%D0%B5%D0%B2/100037242259440/" class="floating-cta floating-cta-messenger" target="_blank" rel="noopener">💬 Свържи се</a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "MAKISOFT",
+  "url": "https://martindimitrov404.github.io/------------/",
+  "telephone": "+359876966886",
+  "email": "martooowe1@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bulgaria",
+    "addressCountry": "BG"
+  }
+}
+</script>
 </body>
 </html>
